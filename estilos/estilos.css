@@ -11,7 +11,7 @@
 .container {
   display: grid;
   place-items: center;
-  height: 300px; /* Altura del contenedor */
+  height: 100px; /* Altura del contenedor */
 }
 
 .parrafos {
@@ -19,4 +19,13 @@
   color:blue;
   font-size: medium;
   padding: 0.8em;
+  
 }        
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #f0f0f0; /*  O cualquier otro color de fondo */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
