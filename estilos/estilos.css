@@ -1,0 +1,22 @@
+ *{
+    margin:0px;
+    padding:0px;
+ }
+ body{
+    padding: 2px;
+    margin:2px;
+ }
+ 
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 300px; /* Altura del contenedor */
+}
+
+.parrafos {
+  /* Estilos adicionales para el div */
+  color:blue;
+  font-size: medium;
+  padding: 0.8em;
+}        
